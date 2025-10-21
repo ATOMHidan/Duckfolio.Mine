@@ -17,23 +17,23 @@ export function Footer({ name }: FooterProps) {
             </p>
             <div className="flex justify-center space-x-4">
                 <a
-                    href="https://github.com/Yorlg"
+                    href="https://longdogechallenge.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-[var(--theme-primary)]  dark:hover:text-[var(--theme-secondary)] transition-colors"
                 >
-                    Yorlg
+                    ATOM
                 </a>
                 <span>•</span>
                 <a
-                    href="https://github.com/Yorlg/Duckfolio"
+                    href="https://www.windows93.net/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-[var(--theme-primary)]  dark:hover:text-[var(--theme-secondary)] transition-colors"
                 >
-                    Duckfolio
+                    BangDream
                 </a>
             </div>
         </motion.footer>
     )
-} 
+}
