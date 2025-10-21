@@ -13,7 +13,7 @@ export function Footer({ name }: FooterProps) {
             className="relative z-10 py-6 mt-auto text-center text-[#121212]/60 dark:text-white/60 text-sm"
         >
             <p className="mb-2">
-                © {new Date().getFullYear()} ATOM. All rights reserved. {/* 直接写死 ATOM */}
+                © {new Date().getFullYear()} {name}. All rights reserved.
             </p>
             <div className="flex justify-center space-x-4">
                 <a
