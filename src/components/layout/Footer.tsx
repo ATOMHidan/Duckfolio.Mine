@@ -1,6 +1,10 @@
 import { motion } from "framer-motion"
 
-export function Footer() {  // 删除 name 参数
+interface FooterProps {
+    name: string
+}
+
+export function Footer({ name }: FooterProps) {
     return (
         <motion.footer
             initial={{ opacity: 0 }}
@@ -9,7 +13,7 @@ export function Footer() {  // 删除 name 参数
             className="relative z-10 py-6 mt-auto text-center text-[#121212]/60 dark:text-white/60 text-sm"
         >
             <p className="mb-2">
-                © {new Date().getFullYear()} ATOM. All rights reserved. {/* 直接使用 ATOM */}
+                © {new Date().getFullYear()} ATOM. All rights reserved. {/* 直接写死 ATOM */}
             </p>
             <div className="flex justify-center space-x-4">
                 <a
