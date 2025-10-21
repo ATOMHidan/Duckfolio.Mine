@@ -33,7 +33,14 @@ export function Navigation({
         }}
         className="text-xl font-medium"
       >
-        <Image src="/logo.png" alt="Logo" width={40} height={40} priority />
+        <Image 
+          src="https://xland.eu.org/autoupload/fr/Apyd_VgMrDaK--N5d9Bp9LymmFG5mamPE3BRhOPwQG2yl5f0KlZfm6UsKj-HyTuv/20251020/y8cB/640X640/35a1951d3426d6fb6f23e62bdd19d625.jpg" 
+          alt="ATOM Logo" 
+          width={40} 
+          height={40} 
+          priority 
+          className="rounded-full" // 添加圆角样式，可根据需要调整
+        />
       </motion.div>
 
       <motion.div
